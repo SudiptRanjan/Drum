@@ -9,23 +9,27 @@ public class HiHatsCollider : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        origSize = new Vector3(0.3493346f, 0.00431057f, 0.3414555f);
-        changedSize = new Vector3(0.2491419f, 0.00431057f, 0.3414555f);
+        origSize = new Vector3(0f, 0f, 0f);
+        changedSize = new Vector3(12.1796303f, 359.373047f, 347.864624f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            HiHats();
+            OnScale();
+        }
     }
     private void HiHats()
     {
         AudioManager.instance.PlaySound(AudioManager.SoundName.HiHats);
     }
 
-    public void OnScale()
+    private void OnScale()
     {
-        var tween = transform.DOScale(changedSize, 0.09f).OnComplete(() => { transform.DOScale(origSize, 0.09f); });
+        var tween = transform.DORotate(changedSize, 0.09f).OnComplete(() => { transform.DORotate(origSize, 0.09f); });
         if (tween.IsPlaying()) return;
         transform.DOKill();
     }
@@ -35,8 +39,12 @@ public class HiHatsCollider : MonoBehaviour
         HiHats();
         OnScale();
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    Debug.Log("Collided");
+    //    HiHats();
+    //    OnScale();
+    //}
 }
 
-//Imported Asset of drum and found some of the sounds of specific parts
- //Different sounds is being emitted from different parts  of drum using keys
- //When a collision takes place  the drum emitts sound 
