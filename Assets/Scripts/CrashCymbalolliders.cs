@@ -30,9 +30,8 @@ public class CrashCymbalolliders : MonoBehaviour
 
     private void OnScale()
     {
-        //Debug.Log("Rotated");
         //var tween = transform.DOScale(changedSize, 0.09f).OnComplete(() => { transform.DOScale(origSize, 0.09f); });
-        var tween = transform.DORotate(changedSize, 0.09f).OnComplete(() => {transform.DORotate(origSize, 0.09f); });
+        var tween = transform.DOShakeRotation(3f, 10, 10, 0, fadeOut: true, ShakeRandomnessMode.Harmonic);
         if (tween.IsPlaying()) return;
         transform.DOKill();
     }
@@ -51,3 +50,5 @@ public class CrashCymbalolliders : MonoBehaviour
     //    OnScale();
     //}
 }
+//-Have done collision effect when a stick collides drum using dotween
+//-Sound is emitted when the impulse force  is more than certain amount 

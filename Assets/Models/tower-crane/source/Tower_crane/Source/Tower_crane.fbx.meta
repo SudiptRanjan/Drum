@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: b4b9c6e8add6c4278914b66a3be86ebf
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BUCKET
+    second: {fileID: 2100000, guid: 7916948ac92b3431cb60b9883efc8684, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CONCRETE
+    second: {fileID: 2100000, guid: 6dd0b119bd2e8486ea6f6a9524c96a35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GLASS
+    second: {fileID: 2100000, guid: 51f9b8651801140c080e054895009d71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IRON
+    second: {fileID: 2100000, guid: 4127f655d52004487b59c0b4047ac7ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ROPE
+    second: {fileID: 2100000, guid: 5217f2c5525a6423c89efaf9185caeb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UV
+    second: {fileID: 2100000, guid: 5fce51744d5824352a446398f72f52b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: frame
+    second: {fileID: 2100000, guid: 5bb8e17043a9a4639a3e245491de38ef, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_BUCKET_BaseColor
+    second: {fileID: 2800000, guid: ba3230109ff2e451a859e1123ec629dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_BUCKET_Metallic
+    second: {fileID: 2800000, guid: a44928a5f398748a68226259e35e5e83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_BUCKET_Normal
+    second: {fileID: 2800000, guid: 80fb7684f44db4dad828bb3b204e7e5c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_BUCKET_Roughness
+    second: {fileID: 2800000, guid: bdd88b63f09a040df867ad9ae6f1517e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_CONCRETE_BaseColor
+    second: {fileID: 2800000, guid: f384d7b727ded4a58a6e23bcf21dc4b0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_CONCRETE_Metallic
+    second: {fileID: 2800000, guid: 6c469cda9782144ce9850e0ac9ec3b59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_CONCRETE_Normal
+    second: {fileID: 2800000, guid: 299bffd5e174f451c96a9a96ba142286, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_CONCRETE_Roughness
+    second: {fileID: 2800000, guid: 21b47ef80b6474d9b8387eac515fc74b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_GLASS_BaseColor
+    second: {fileID: 2800000, guid: 5589f91a4ea314b51b09c3f64e584b04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_GLASS_Metallic
+    second: {fileID: 2800000, guid: 9f48cd68e4f604ac98b4affaaec99b86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_GLASS_Normal
+    second: {fileID: 2800000, guid: 23c2c2556c4ae44b18c8433d332dfed7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_GLASS_Roughness
+    second: {fileID: 2800000, guid: be36433b67d98406cbc73b4e8f1d7c71, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_IRON_BaseColor
+    second: {fileID: 2800000, guid: 122691ebd331d448987afb2bc51d1fcd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_IRON_Metallic
+    second: {fileID: 2800000, guid: d1d4bcdd5c98f4812ac459a40fdc9f22, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_IRON_Normal
+    second: {fileID: 2800000, guid: a1a8edeebb1214ce786df01b4489dabe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_IRON_Roughness
+    second: {fileID: 2800000, guid: 26dfe1c38a477493798521ac6cbc7be9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_ROPE_BaseColor
+    second: {fileID: 2800000, guid: ce522760660634a878ffe21a3e285927, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_ROPE_Metallic
+    second: {fileID: 2800000, guid: af6a717260c614c6692dc32d66e8542d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_ROPE_Normal
+    second: {fileID: 2800000, guid: 3fc697a6a92984761b0417ed0a321af2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_ROPE_Roughness
+    second: {fileID: 2800000, guid: 5b6c18fcbbd894738bba25f39d50e68b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_UV_BaseColor
+    second: {fileID: 2800000, guid: 19418e03b777f4b71be158bbaf0e2f40, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_UV_Metallic
+    second: {fileID: 2800000, guid: aa07225ff844e47b1816bc2d6021904c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_UV_Normal
+    second: {fileID: 2800000, guid: 5cbe28a31e7d849398445be0e48c8d72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_UV_Roughness
+    second: {fileID: 2800000, guid: a8b3c6044850041428a816b39b0f44ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_frame_BaseColor
+    second: {fileID: 2800000, guid: 876854d3ec6604fa681299ca89514cdd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_frame_Metallic
+    second: {fileID: 2800000, guid: 99a98cb993b284bc7ae3c81d60e28e25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_frame_Normal
+    second: {fileID: 2800000, guid: f30df148a378a423cadc4fd3236389a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tower_crane_frame_Roughness
+    second: {fileID: 2800000, guid: fc902ab7c21ce4c34b9683558365523f, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
